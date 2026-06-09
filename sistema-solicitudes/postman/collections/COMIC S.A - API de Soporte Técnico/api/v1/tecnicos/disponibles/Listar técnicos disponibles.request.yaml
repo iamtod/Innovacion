@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/tecnicos/disponibles"
+method: GET
+headers:
+  Accept: "*/*"
+examples: ./.resources/Listar técnicos disponibles.resources/examples
+order: 1000

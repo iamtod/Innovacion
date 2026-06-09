@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/solicitudes/:id"
+method: GET
+headers:
+  Accept: "*/*"
+pathVariables:
+  id: "1711"
+examples: ./.resources/Obtener una solicitud por ID.resources/examples
+order: 3000

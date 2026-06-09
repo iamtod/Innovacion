@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/solicitudes/:id/asignar-tecnico/:tecnicoId"
+method: PATCH
+headers:
+  Accept: "*/*"
+pathVariables:
+  id: "1711"
+  tecnicoId: "1711"
+examples: ./.resources/Asignar un técnico disponible a una solicitud.resources/examples
+order: 1000

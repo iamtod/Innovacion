@@ -1,0 +1,19 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/tecnicos"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: "*/*"
+body:
+  type: json
+  content: |-
+    {
+      "apellido": "string",
+      "email": "string",
+      "especialidad": "string",
+      "nombre": "string",
+      "id": 4922,
+      "disponible": false
+    }
+examples: ./.resources/Registrar un nuevo técnico.resources/examples
+order: 4000

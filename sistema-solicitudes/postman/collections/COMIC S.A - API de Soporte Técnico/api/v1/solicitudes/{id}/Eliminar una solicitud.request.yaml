@@ -1,0 +1,10 @@
+$kind: http-request
+description: No se pueden eliminar solicitudes en estado EN_PROCESO.
+url: "{{baseUrl}}/api/v1/solicitudes/:id"
+method: DELETE
+headers:
+  Accept: "*/*"
+pathVariables:
+  id: "1711"
+examples: ./.resources/Eliminar una solicitud.resources/examples
+order: 5000

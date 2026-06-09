@@ -1,0 +1,12 @@
+$kind: http-request
+description: "Estados válidos: ABIERTA, EN_PROCESO, PENDIENTE, RESUELTA, CERRADA, CANCELADA"
+url: "{{baseUrl}}/api/v1/solicitudes/:id/estado?estado=CERRADA"
+method: PATCH
+headers:
+  Accept: "*/*"
+queryParams:
+  estado: CERRADA
+pathVariables:
+  id: "1711"
+examples: ./.resources/Cambiar el estado de una solicitud.resources/examples
+order: 1000

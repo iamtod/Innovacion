@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/solicitudes/tecnico/:tecnicoId"
+method: GET
+headers:
+  Accept: "*/*"
+pathVariables:
+  tecnicoId: "1711"
+examples: ./.resources/Listar solicitudes asignadas a un técnico.resources/examples
+order: 1000

@@ -1,0 +1,21 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/tecnicos/:id"
+method: PUT
+headers:
+  Content-Type: application/json
+  Accept: "*/*"
+pathVariables:
+  id: "1711"
+body:
+  type: json
+  content: |-
+    {
+      "apellido": "string",
+      "email": "string",
+      "especialidad": "string",
+      "nombre": "string",
+      "id": 4922,
+      "disponible": false
+    }
+examples: ./.resources/Actualizar un técnico existente.resources/examples
+order: 2000

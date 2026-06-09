@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/solicitudes/sin-asignar"
+method: GET
+headers:
+  Accept: "*/*"
+examples: ./.resources/Listar solicitudes abiertas sin técnico asignado.resources/examples
+order: 1000

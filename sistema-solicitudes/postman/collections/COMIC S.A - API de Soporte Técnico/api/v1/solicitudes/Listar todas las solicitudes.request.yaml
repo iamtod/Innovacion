@@ -1,0 +1,12 @@
+$kind: http-request
+description: Retorna la lista completa. Filtrar opcionalmente por estado.
+url: "{{baseUrl}}/api/v1/solicitudes?estado=CERRADA"
+method: GET
+headers:
+  Accept: "*/*"
+queryParams:
+  - key: estado
+    value: CERRADA
+    description: "Estado: ABIERTA, EN_PROCESO, PENDIENTE, RESUELTA, CERRADA, CANCELADA"
+examples: ./.resources/Listar todas las solicitudes.resources/examples
+order: 5000
