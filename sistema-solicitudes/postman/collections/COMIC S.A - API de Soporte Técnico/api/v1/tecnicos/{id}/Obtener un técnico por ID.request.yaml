@@ -1,9 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/v1/tecnicos/:id"
-method: GET
-headers:
-  Accept: "*/*"
-pathVariables:
-  id: "1711"
-examples: ./.resources/Obtener un técnico por ID.resources/examples
-order: 1000

@@ -1,7 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/v1/clientes"
-method: GET
-headers:
-  Accept: "*/*"
-examples: ./.resources/Listar todos los clientes.resources/examples
-order: 2000

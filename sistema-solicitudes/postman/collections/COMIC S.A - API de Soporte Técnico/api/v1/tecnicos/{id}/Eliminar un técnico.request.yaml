@@ -1,9 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/v1/tecnicos/:id"
-method: DELETE
-headers:
-  Accept: "*/*"
-pathVariables:
-  id: "1711"
-examples: ./.resources/Eliminar un técnico.resources/examples
-order: 3000

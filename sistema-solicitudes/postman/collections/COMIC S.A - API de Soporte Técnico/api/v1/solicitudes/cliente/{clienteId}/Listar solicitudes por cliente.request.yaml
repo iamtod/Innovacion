@@ -1,9 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/v1/solicitudes/cliente/:clienteId"
-method: GET
-headers:
-  Accept: "*/*"
-pathVariables:
-  clienteId: "1711"
-examples: ./.resources/Listar solicitudes por cliente.resources/examples
-order: 1000

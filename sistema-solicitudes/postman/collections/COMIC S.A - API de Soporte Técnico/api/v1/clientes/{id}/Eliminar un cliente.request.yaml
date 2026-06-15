@@ -1,9 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/v1/clientes/:id"
-method: DELETE
-headers:
-  Accept: "*/*"
-pathVariables:
-  id: "1711"
-examples: ./.resources/Eliminar un cliente.resources/examples
-order: 3000
